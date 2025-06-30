@@ -777,6 +777,12 @@ footer hr{
 
 }
 
+@media (max-width: 1024px) {
+    .sec_1{
+        background-attachment: scroll;
+    }
+}
+
 @media (max-width: 1000px) {
     .banner .bg_txt{
         font-size: 35px;
@@ -922,6 +928,7 @@ footer hr{
 
     .sec_1 {
         padding: 90px 0 40px;
+        background-position: 65% top;
     }
 
     .sec1_txt .headtxt {
